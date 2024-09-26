@@ -10,6 +10,10 @@ body{
     text-align: center;
 }
 
+.portada{
+    width: 100%;
+}
+
 .social 
 {
     display: flex;
@@ -17,7 +21,10 @@ body{
     justify-content: center;
 }
 .bottom{
+    margin-top: 15px;
     height: auto;
+    color: #fff;
+    text-align: center;
 }
 
 .facebook-cont{
