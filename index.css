@@ -1,0 +1,41 @@
+body{
+    background-color: #000;
+}
+.prox{
+    color: #c2c2c2;
+}
+.top{
+    height: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.social 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bottom{
+    height: auto;
+}
+
+.facebook-cont{
+
+    
+}
+
+.facebook-cont img{
+    width: 50px;
+    height: 50px;
+    
+    }
+
+    .insta-cont{
+        margin-left: 5px;
+        
+    }
+.insta-cont img{
+    width: 50px;
+    height: 50px;
+}
