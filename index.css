@@ -1,48 +1,99 @@
-body{
+body {
     background-color: #000;
+    color: #000;
 }
-.prox{
+
+header nav {
+    background: linear-gradient(to right, #012A68 0 50%, #5776A2 95% 100%);
+    background: -webkit-linear-gradient(to right, #012A68 0 50%, #5776A2 95% 100%);
+    background: -moz-linear-gradient(to right, #012A68 0 50%, #5776A2 95% 100%);
+    background: -o-linear-gradient(to right, #012A68 0 50%, #5776A2 95% 100%);
+    background: -ms-linear-gradient(to right, #012A68 0 50%, #5776A2 95% 100%);
+    background: linear-gradient(to right, #012A68 0 50%, #5776A2 95% 100%);
+}
+
+header nav a {
+    color: #fff !important;
+}
+
+main {
+    margin-top: 56px;
+}
+
+footer {
+    background-color: #012A68;
+    color: #fff;
+}
+
+.texto {
+    background-color: #E7E6E1;
+}
+
+.imagen {}
+
+.prox {
     color: #c2c2c2;
 }
-.top{
+
+.top {
     height: 200px;
     color: #fff;
     text-align: center;
 }
 
-.portada{
+.portada {
     width: 100%;
 }
 
-.social 
-{
+.social {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.bottom{
+
+.bottom {
     margin-top: 15px;
     height: auto;
     color: #fff;
     text-align: center;
 }
 
-.facebook-cont{
+.facebook-cont {}
 
-    
-}
-
-.facebook-cont img{
+.facebook-cont img {
     width: 50px;
     height: 50px;
-    
-    }
 
-    .insta-cont{
-        margin-left: 5px;
-        
-    }
-.insta-cont img{
+}
+
+.insta-cont {
+    margin-left: 5px;
+
+}
+
+.insta-cont img {
     width: 50px;
     height: 50px;
 }
+
+#carouselPrincipal .carousel-item img{
+    max-height: 500px;
+    object-fit: fill;
+}
+
+/*
+fill: It resizes the image to fit the content box even if it has to stretch or squish the image.
+img{
+object-fit: fill;
+} 
+
+cover:  It resizes the image to fit the content box without maintaining the aspect ratio of the image. The image will be clipped to fit if the aspect ratio of the content box doesn’t match the image. 
+img{
+object-fit: cover;
+}
+
+contain: It resizes the image to fit the given content box maintaining the content box.  
+img{
+object-fit: contain;
+}
+*/

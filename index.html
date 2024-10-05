@@ -1,43 +1,262 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="index.css" rel="stylesheet" />
     <title>Eventos Platinum</title>
-    
 </head>
-<body>
-    <div class="top">
-        <h2 class="prox">
-            Próximamente...
-        </h2>
-        <h1>
-            Eventos Platinum
-        </h1>
-        <div class="social">
-            <div class="facebook-cont">
-                <a href="https://www.facebook.com/p/Eventos-Platinum-LM-100087446958015/" target="_blank">
-                    <img src="facebook.png" alt="Facebook Eventos Platinum"/>
-                </a>
-            </div>
-            <div class="insta-cont">
-                <a href="https://www.instagram.com/eventosplatinum.lm" target="_blank">
-                    <img src="instagram.png" alt="Instagram Eventos Platinum"/>
-                </a>
+
+<!-- <body class="index-page scrolled"> -->
+
+<body class="">
+    <header class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Eventos Platinum</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Galería</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 texto align-content-center pb-sm-2 px-5">
+                    <h1 class="text-center">
+                        EVENTOS A LA ALTURA DE TU PRESTIGIO
+                    </h1>
+                    <p class="text-center">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae est corrupti facilis, similique,
+                        sint libero placeat maiores omnis exercitationem recusandae voluptatem, tenetur ut numquam quasi
+                        porro nobis odit accusamus praesentium!
+                    </p>
+                    <div class="text-center">
+                        <h2>DESCUBRE NUESTROS SERVICIOS</h2>
+                        <a href="#" class="btn btn-primary">Reserva</a>
+                    </div>
+
+                </div>
+                <div class="col-md-6 px-0 imagen">
+                    <div id="carouselPrincipal" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="6"
+                                aria-label="Slide 7"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/evento1.jpg" class="d-block w-100" alt="Evento1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/evento2.jpg" class="d-block w-100" alt="Evento2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/evento3.jpg" class="d-block w-100" alt="Evento3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/salon2.jpg" class="d-block w-100" alt="Salon2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/salon1.jpg" class="d-block w-100" alt="Salon1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/jardin1.jpg" class="d-block w-100" alt="Jardin1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/jardin2.jpg" class="d-block w-100" alt="Jardin2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrincipal"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPrincipal"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+
+                </div>
             </div>
         </div>
-        
-    </div>
-    <div class="portada">
-        <img src="foto1.jpg" width="100%"/>
-    </div>
-    
-    <div class="bottom">
-        
-        <p>Carretera Los Mochis - Topolobampo Km. 7.5, Los Mochis, Sinaloa 81377</p>
-        Tel. (668) 106 9207
-    </div>
-    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 bg-primary">
+                    dasdad
+                </div>
+                <div class="col-md-6 px-0">
+                    <div id="carouselPrincipal" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="6"
+                                aria-label="Slide 7"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/evento1.jpg" class="d-block w-100" alt="Evento1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/evento2.jpg" class="d-block w-100" alt="Evento2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/evento3.jpg" class="d-block w-100" alt="Evento3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/salon2.jpg" class="d-block w-100" alt="Salon2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/salon1.jpg" class="d-block w-100" alt="Salon1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/jardin1.jpg" class="d-block w-100" alt="Jardin1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/jardin2.jpg" class="d-block w-100" alt="Jardin2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrincipal"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPrincipal"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 bg-primary">
+                    dasdad
+                </div>
+                <div class="col-md-6 px-0">
+                    <div id="carouselPrincipal" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="6"
+                                aria-label="Slide 7"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/evento1.jpg" class="d-block w-100" alt="Evento1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/evento2.jpg" class="d-block w-100" alt="Evento2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/evento3.jpg" class="d-block w-100" alt="Evento3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/salon2.jpg" class="d-block w-100" alt="Salon2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/salon1.jpg" class="d-block w-100" alt="Salon1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/jardin1.jpg" class="d-block w-100" alt="Jardin1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/jardin2.jpg" class="d-block w-100" alt="Jardin2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrincipal"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPrincipal"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-light"><a href="https://www.facebook.com/p/Eventos-Platinum-LM-100087446958015/"
+                        target="_blank">
+                        <img src="facebook.png" alt="Facebook Eventos Platinum" />
+                    </a>
+                </div>
+                <div class="col text-light">
+                    <a href="https://www.instagram.com/eventosplatinum.lm" target="_blank">
+                        <img src="instagram.png" alt="Instagram Eventos Platinum" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
