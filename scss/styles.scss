@@ -55,8 +55,27 @@ body {
 #logo2 {
   transition: all 0.5s ease-in-out;
 }
+
+button.carousel-control-prev span,
+button.carousel-control-next span {
+  opacity: 1;
+  background-color: $primary;
+  border-radius: 20px;
+  padding: 1.1rem;
+}
+
 @media (max-width: 992px) {
   .navbar {
     background: var(--bs-dark);
   }
+  button.carousel-control-prev span,
+  button.carousel-control-next span {
+    opacity: 0.8;
+    background-color: $primary;
+    border-radius: 20px;
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 991px) {
 }
