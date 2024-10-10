@@ -1,43 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet" />
-    <title>Eventos Platinum</title>
-    
-</head>
-<body>
-    <div class="top">
-        <h2 class="prox">
-            Próximamente...
-        </h2>
-        <h1>
-            Eventos Platinum
-        </h1>
-        <div class="social">
-            <div class="facebook-cont">
-                <a href="https://www.facebook.com/p/Eventos-Platinum-LM-100087446958015/" target="_blank">
-                    <img src="facebook.png" alt="Facebook Eventos Platinum"/>
-                </a>
-            </div>
-            <div class="insta-cont">
-                <a href="https://www.instagram.com/eventosplatinum.lm" target="_blank">
-                    <img src="instagram.png" alt="Instagram Eventos Platinum"/>
-                </a>
-            </div>
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="css/font-awesome.css" />
+      <link rel="stylesheet" href="css/bootstrap.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+      <title>Eventos Platinum</title>
+    </head>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img
+            id="logo1"
+            src="resources/LOGO_1_GOLD.svg"
+            alt="Logo Eventos Platinum"
+            width="150px"
+            class="d-block"
+          />
+          <img
+            id="logo2"
+            src="resources/LOGO_BLANCO.svg"
+            alt="Logo Eventos Platinum"
+            width="150px"
+            class="d-none"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarDropdown"
+          aria-controls="navbarDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link" aria-current="page">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#nosotros" class="nav-link">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a href="#galeria" class="nav-link">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacto" class="nav-link">Contacto</a>
+            </li>
+          </ul>
         </div>
-        
-    </div>
-    <div class="portada">
-        <img src="foto1.jpg" width="100%"/>
-    </div>
-    
-    <div class="bottom">
-        
-        <p>Carretera Los Mochis - Topolobampo Km. 7.5, Los Mochis, Sinaloa 81377</p>
-        Tel. (668) 106 9207
-    </div>
-    
-</body>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="home" class="header">
+      <div class="pt-7 h-100">
+        <div class="container h-100">
+          <div class="row h-100">
+            <div class="col-8 offset-2 h-100">
+              <div
+                class="text-container text-center d-flex flex-column text-light justify-content-center h-100 align-content-end"
+              >
+                <h1 class="display-4">
+                  Inspirado en la <strong class="fw-bold">Exclusividad</strong>
+                </h1>
+                <h3 class="text-primary">REUNIONES & EVENTOS</h3>
+                <p>Transformamos tus sueños en experiencias inolvidables</p>
+                <button class="btn btn-primary btn-lg">Reserva</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Nosotros -->
+    <section id="nosotros">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center p-5 text-primary">
+            <h2>NOSOTROS</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Assumenda tenetur ut dolor architecto facilis eveniet, nihil
+              quisquam dolores aut inventore harum cupiditate corrupti quasi
+              aspernatur, dicta numquam placeat quibusdam magni in et itaque,
+              adipisci minima. Alias nisi ex aspernatur asperiores esse fuga
+              vitae, quidem similique pariatur rerum ut itaque! Aspernatur
+              itaque asperiores minima, error iusto dicta omnis, fugiat autem,
+              veniam maiores ea iste ipsum distinctio architecto quisquam.
+              Culpa, sit autem. Recusandae illum alias esse suscipit earum sint
+              dolore odit sapiente, iure explicabo dolores nemo magnam sed
+              nobis? Iusto voluptas, fugiat error sed perspiciatis eum aperiam
+              ab magni nisi optio aut.
+            </p>
+
+            <h5>Síguenos</h5>
+            <span class="fa-stack">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/p/Eventos-Platinum-LM-100087446958015/"
+              >
+                <i class="fas fa-square fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a
+                href="https://www.instagram.com/eventosplatinum.lm"
+                target="_blank"
+              >
+                <i class="fas fa-square fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x text-white"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 bg-primary pt-5 text-center pb-5">
+            <h2>GALERÍA</h2>
+          </div>
+        </div>
+        <div class="row mt-n4 g-0">
+          <div class="col-12">
+            <!-- Image Slider -->
+            <div id="galeriaCarousel" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#galeriaCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#galeriaCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#galeriaCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#galeriaCarousel"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#galeriaCarousel"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#galeriaCarousel"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#galeriaCarousel"
+                  data-bs-slide-to="6"
+                  aria-label="Slide 7"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/FRAME1.png"
+                    class="d-block w-100"
+                    alt="Sala de Eventos 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/FRAME2.png"
+                    class="d-block w-100"
+                    alt="Sala de Eventos 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/FRAME4.png"
+                    class="d-block w-100"
+                    alt="Sala de Eventos 3"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/FRAME5.png"
+                    class="d-block w-100"
+                    alt="Sala de Eventos 4"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/FRAME6.png"
+                    class="d-block w-100"
+                    alt="Sala de Eventos 5"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/FRAME8.png"
+                    class="d-block w-100"
+                    alt="Sala de Eventos 6"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/FRAME9.png"
+                    class="d-block w-100"
+                    alt="Sala de Eventos 7"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#galeriaCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#galeriaCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h5>DIRECCIÓN</h5>
+            <p>
+              Carretera Los Mochis - Topolobampo Km. 7.5, Los Mochis, Sinaloa
+              81377
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <h5>CONTACTO</h5>
+
+            <p>
+              <i class="fas fa-phone text-light me-2"></i>
+              (668) 106 9207
+            </p>
+          </div>
+          <div class="col-lg-6"><h5></h5></div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
