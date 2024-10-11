@@ -2,8 +2,9 @@
 function userScroll() {
   const navbar = document.querySelector(".navbar");
   const navlinks = document.querySelectorAll(".nav-link");
-  const logo1 = document.getElementById("logo1");
-  const logo2 = document.getElementById("logo2");
+
+  const navbarToggler = document.querySelector(".navbar-toggler");
+  const navbarToglerIcon = document.querySelector(".menu-toggler-icon");
 
   window.addEventListener("scroll", () => {
     if (window.scrollY > 600) {
@@ -12,19 +13,15 @@ function userScroll() {
       const navlinkList = [...navlinks].map((el) => {
         el.classList.add("navbar-link-secondary");
       });
-
-      // toggle logo
-      // logo1.classList.toggle("d-none");
-      // logo2.classList.toggle("d-block");
+      navbarToggler.classList.remove("navbar-toggler-primary");
+      navbarToglerIcon.classList.remove("text-primary");
     } else {
       navbar.classList.remove("bg-primary");
       const navlinkList = [...navlinks].map((el) => {
         el.classList.remove("navbar-link-secondary");
       });
-
-      // toggle logo
-      // logo2.classList.toggle("d-none");
-      // logo1.classList.toggle("d-block");
+      navbarToggler.classList.add("navbar-toggler-primary");
+      navbarToglerIcon.classList.add("text-primary");
     }
   });
 }

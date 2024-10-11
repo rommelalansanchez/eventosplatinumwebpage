@@ -38,6 +38,10 @@ body {
   color: #fbf9f5;
 }
 
+.navbar-toggler-primary {
+  border-color: #a08820;
+}
+
 .carousel-item img {
   height: 640px;
 }

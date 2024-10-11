@@ -43,6 +43,9 @@ body {
 .navbar-link-secondary {
   color: $light;
 }
+.navbar-toggler-primary {
+  border-color: $primary;
+}
 
 .carousel-item img {
   height: 640px;
