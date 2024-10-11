@@ -1,6 +1,6 @@
 $primary: #a08820;
 $light: #fbf9f5;
-$dark: #000;
+//$dark: #000;
 
 $text-light: $light;
 
@@ -34,7 +34,7 @@ body {
   background-size: cover;
 }
 .navbar {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 .navbar-transparent {
   opacity: 0.9;
@@ -52,10 +52,6 @@ body {
 }
 
 #logo1 {
-  transition: all 0.5s ease-in-out;
-}
-
-#logo2 {
   transition: all 0.5s ease-in-out;
 }
 

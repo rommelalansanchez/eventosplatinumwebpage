@@ -26,7 +26,7 @@ body {
 }
 
 .navbar {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 .navbar-transparent {
@@ -47,10 +47,6 @@ body {
 }
 
 #logo1 {
-  transition: all 0.5s ease-in-out;
-}
-
-#logo2 {
   transition: all 0.5s ease-in-out;
 }
 
