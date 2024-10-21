@@ -79,9 +79,11 @@
                 <h3 class="text-primary">REUNIONES & EVENTOS</h3>
                 <p>Transformamos tus sueños en experiencias inolvidables</p>
                 <div class="text-center">
-                  <button class="btn btn-primary btn-reserva px-5">
-                    Reserva
-                  </button>
+                  <a href="#Reservacion">
+                    <button class="btn btn-primary btn-reserva px-5">
+                      Reserva
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -278,6 +280,113 @@
       </div>
     </section>
 
+    <section id="Reservacion" class="my-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-6">
+            <h2 class="text-primary">HAZ TU RESERVACIÓN</h2>
+            <form action="" id="form_reservacion" novalidate>
+              <div class="">
+                <label for="nombre_interesado" class="form-label"
+                  >Nombre:</label
+                >
+                <input
+                  id="nombre_interesado"
+                  type="text"
+                  class="form-control"
+                />
+              </div>
+              <div>
+                <label for="correo_interesado" class="form-label"
+                  >Correo:</label
+                >
+                <input
+                  id="correo_interesado"
+                  type="text"
+                  class="form-control"
+                />
+              </div>
+              <div class="">
+                <label for="telefono_interesado" class="form-label"
+                  >Teléfono:</label
+                >
+                <input
+                  id="telefono_interesado"
+                  type="text"
+                  class="form-control"
+                />
+              </div>
+              <label for="fecha_evento" class="form-label"
+                >Fecha de interés:</label
+              >
+              <input
+                id="fecha_evento"
+                type="date"
+                class="form-control"
+                placeholder="Fecha"
+              />
+              <label for="tipo_evento" class="form-label mt-4"
+                >Tipo de evento:</label
+              >
+              <select name="tipo_evento" id="tipo_evento" class="form-select">
+                <option value="">Selecciona</option>
+                <option value="Boda">Boda</option>
+                <option value="XV">XV</option>
+                <option value="Cumple">Cumpleaños</option>
+              </select>
+              <label for="espacio_salon" class="form-label mt-4"
+                >Espacio de salón:</label
+              >
+              <select
+                name="espacio_salon"
+                id="espacio_salon"
+                class="form-select"
+              >
+                <option value="">Selecciona</option>
+                <option value="Jardin">Jardin</option>
+                <option value="Interior">Interior</option>
+                <option value="Terraza">Terraza techada</option>
+              </select>
+              <label for="numero_personas" class="form-label mt-4"
+                >Número de personas:</label
+              >
+              <input id="numero_personas" type="number" class="form-control" />
+              <label for="horario_evento" class="form-label mt-4"
+                >Horario:</label
+              >
+              <select
+                name="horario_evento"
+                id="horario_evento"
+                class="form-select"
+              >
+                <option value="">Seleccionar</option>
+                <option value="Mañana">Mañana</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noche">Noche</option>
+              </select>
+              <button
+                type="submit"
+                id="btnReservar"
+                class="btn btn-primary btn-reserva px-5 mt-4"
+              >
+                Reservar
+              </button>
+            </form>
+          </div>
+        </div>
+        <div id="MensajeReserva" class="row mt-4 d-none">
+          <div class="col-lg-6 text-center">
+            <div class="card">
+              <div class="card-header">Tu solicitud fue enviada con éxito</div>
+              <div class="card-body">
+                <h5 class="card-title">Gracias por elegir Eventos Platinum</h5>
+                <p>Nos pondremos en contacto contigo a la brevedad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
     <footer class="bg-dark p-5" id="contacto">
       <div class="container">
@@ -298,6 +407,15 @@
             </p>
           </div>
           <div class="col-lg-4"><h5></h5></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <span>&copy; 2024 Eventos Platinum</span>
+            <span class="border-end mx-4"></span>
+          </div>
+          <div class="col-xs-12 col-sm-8 text-start">
+            <span>Sala de eventos y espectáculos</span>
+          </div>
         </div>
       </div>
     </footer>
